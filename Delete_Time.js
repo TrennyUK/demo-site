@@ -7,7 +7,7 @@ async function deleteTimeFromSheets() {
     const response = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ month: 6 }) // dùng nếu cần
+      body: JSON.stringify({ month: 1 }) // dùng nếu cần
     });
 
     console.log('📨 HTTP status:', response.status);

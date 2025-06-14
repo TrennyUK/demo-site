@@ -5,7 +5,7 @@ google.charts.load("current", { packages: ["corechart"] });
 const API_KEY = 'AIzaSyA1fRhQE_tbpwr0w7mc4kYWPWeGpN2I4-k';
 const SHEET_ID_NAMES = '1bv0_DB47DF8YBiPJnTHw434H1RBQv3q88lPXNJmbGrk';
 const SHEET_ID_HOURS = '1uIU21ZVrdAzC6SwvsYDrbRh5gL4aB2tsMIeUyJ5RvCs';
-const RANGE_NAMES = 'Day 1!D5:D34';
+const RANGE_NAMES = 'Day 1!C5:C34';
 
 // ───── Hàm fetch lương từ Google Sheets theo tháng ─────
 // 📌 sheetId: ID file Sheets ứng với từng tháng
